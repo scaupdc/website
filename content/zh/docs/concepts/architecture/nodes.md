@@ -61,7 +61,7 @@ try to create a Node from the following JSON manifest:
 向 {{< glossary_tooltip text="API 服务器" term_id="kube-apiserver"
 >}}添加节点的方式主要有两种：
 
-1. 节点上的 `kubelet` 向控制面执行自注册；
+1. 节点上的 `kubelet` 向控制面板执行自注册；
 2. 你，或者别的什么人，手动添加一个 Node 对象。
 
 在你创建了 Node 对象或者节点上的 `kubelet` 执行了自注册操作之后，
