@@ -10,6 +10,7 @@ weight: 10
 <!-- overview -->
 
 Kubernetes runs your workload by placing containers into Pods to run on _Nodes_.
+业务作业以containers形式呈现，containers放置在Pods里，Pods运行在Nodes上。
 A node may be a virtual or physical machine, depending on the cluster. Each node
 is managed by the
 {{< glossary_tooltip text="control plane" term_id="control-plane" >}}
